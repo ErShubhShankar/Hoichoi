@@ -187,21 +187,24 @@ extension UIImageView {
         if fileURL.contains(" ") {
             fileURL = fileURL.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? fileURL
         }
-        fileURL += "?impolicy=resize&w=\(frame.width*2)&h=\(frame.height*2)"
-        let url = URL(string: fileURL)
-        self.kf.setImage(with: url, options: options) { (result) in
-            switch result {
-            case .success(let value):
-                self.image = value.image
-                self.contentMode = contentMode
-                completion?(true)
-            case .failure(let error):
-                self.image = UIImage(named: "placeholder")
-                completion?(false)
-                Logger.log(message: "Coudn't download image ---> \(fileURL), because \(error)",
-                           event: .debug)
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.1, execute: {
+            self.layoutIfNeeded()
+            fileURL += "?impolicy=resize&w=\(self.frame.width*2)&h=\(self.frame.height*2)"
+            let url = URL(string: fileURL)
+            self.kf.setImage(with: url, options: options) { (result) in
+                switch result {
+                case .success(let value):
+                    self.image = value.image
+                    self.contentMode = contentMode
+                    completion?(true)
+                case .failure(let error):
+                    self.image = UIImage(named: "placeholder")
+                    completion?(false)
+                    Logger.log(message: "Coudn't download image ---> \(fileURL), because \(error)",
+                               event: .debug)
+                }
             }
-        }
+        })
     }
     func imageWithFade(image: UIImage, duration: TimeInterval = 0.0) {
         UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: {

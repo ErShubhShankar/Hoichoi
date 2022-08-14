@@ -7,6 +7,7 @@
 import UIKit
 
 class HeaderCollectionReusableView: UICollectionReusableView {
+    @IBOutlet weak var imageChevron: UIImageView!
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var buttonHeader: UIButton!
 }

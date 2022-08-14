@@ -41,6 +41,15 @@ class AccountViewController: UIViewController {
     
     @IBAction func actionOnSubscribe(_ sender: UIButton) {
         sender.scaleAnimation()
+        if let subscribeVC = SubscribeViewController.instantiate(storyboard: "Main") {
+            navigationController?.pushViewController(subscribeVC, animated: true)
+        }
+    }
+    @objc func actionOnButtonHeader(_ sender: UIButton) {
+        let indexPath = IndexPath(row: 0, section: sender.tag)
+        let headerIdentifier = "AccountHeader"
+        let headerView = collectionView.supplementaryView(forElementKind: headerIdentifier, at: indexPath)
+        headerView?.scaleAnimation()
     }
     private func registerCells() {
         AccountCell.register(for: collectionView)
@@ -99,12 +108,6 @@ class AccountViewController: UIViewController {
         headerItem.pinToVisibleBounds = false
         headerItem.contentInsets = .init(top: 0, leading: 12, bottom: 0, trailing: 12)
         return headerItem
-    }
-    @objc func actionOnButtonHeader(_ sender: UIButton) {
-        let indexPath = IndexPath(row: 0, section: sender.tag)
-        let headerIdentifier = "AccountHeader"
-        let headerView = collectionView.supplementaryView(forElementKind: headerIdentifier, at: indexPath)
-        headerView?.scaleAnimation()
     }
 }
 

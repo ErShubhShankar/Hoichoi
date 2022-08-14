@@ -77,6 +77,7 @@
             </constraints>
             <connections>
                 <outlet property="buttonHeader" destination="xu8-LX-zSS" id="aQu-AR-cfL"/>
+                <outlet property="imageChevron" destination="pT4-Ds-p4H" id="6qV-7N-RsF"/>
                 <outlet property="labelTitle" destination="bnH-fs-eBD" id="cg7-OC-oQX"/>
             </connections>
             <point key="canvasLocation" x="-370.28985507246381" y="127.90178571428571"/>

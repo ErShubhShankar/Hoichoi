@@ -213,7 +213,22 @@ extension HomeViewController {
     }
 }
 
+//MARK: - CollectionView Delegate & Animations
 extension HomeViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        cell.alpha = 0.0
+        cell.frame.origin.x += 20
+        UIView.animate(withDuration: 0.5, delay: 0, options: [.allowUserInteraction], animations: {
+            cell.alpha = 1
+            cell.frame.origin.x -= 20
+        })
+    }
+    func collectionView(_ collectionView: UICollectionView, willDisplaySupplementaryView view: UICollectionReusableView, forElementKind elementKind: String, at indexPath: IndexPath) {
+        view.alpha = 0.0
+        UIView.animate(withDuration: 0.3, delay: 0, options: [.allowUserInteraction], animations: {
+            view.alpha = 1
+        })
+    }
     func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath)
         cell?.showHightLight()

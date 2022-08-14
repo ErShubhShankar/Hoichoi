@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "showsPoster.jpg",
       "idiom" : "universal"
     }
   ],
