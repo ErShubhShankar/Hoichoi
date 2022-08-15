@@ -9,22 +9,17 @@ import UIKit
 
 class SubscribeViewController: UIViewController {
 
-    @IBOutlet weak var viewBasic: UIView!
-    @IBOutlet weak var viewGradient: UIView!
-    @IBOutlet weak var viewPreminum: UIView!
-    @IBOutlet weak var scrollView: UIScrollView!
-   
-    @IBOutlet weak var buttonContinue: UIButton!
-    @IBOutlet weak var viewPosterGradient: UIView!
+    @IBOutlet weak private var viewBasic: UIView!
+    @IBOutlet weak private var viewGradient: UIView!
+    @IBOutlet weak private var viewPreminum: UIView!
+    @IBOutlet weak private var scrollView: UIScrollView!
+    @IBOutlet weak private var buttonContinue: UIButton!
+    @IBOutlet weak private var viewPosterGradient: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setStyle()
         setAnimation()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
     }
     @IBAction func actionOnBack(_ sender: UIButton) {
         navigationController?.popViewController(animated: true)
@@ -61,7 +56,7 @@ class SubscribeViewController: UIViewController {
         posterGradientLayer.colors = [UIColor(named: "dark")!.cgColor, UIColor(named: "dark")!.withAlphaComponent(0).cgColor]
         viewPosterGradient.layer.addSublayer(posterGradientLayer)
     }
-    func setAnimation() {
+    private func setAnimation() {
         buttonContinue.frame.origin.y += 100
         buttonContinue.alpha = 0
         UIView.animate(withDuration: 0.6, delay: 0.4, usingSpringWithDamping: 0.5, initialSpringVelocity: 6, options: [.allowUserInteraction], animations: {

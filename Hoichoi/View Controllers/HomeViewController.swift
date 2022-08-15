@@ -26,6 +26,7 @@ class HomeViewController: UIViewController {
         collectionView.contentInset = UIEdgeInsets(top: -45, left: 0, bottom: 60, right: 0)
     }
     
+    //MARK: - CollectionView Helper
     private func registerCells() {
         PosterCell.register(for: collectionView)
         ShowsCell.register(for: collectionView)
@@ -236,7 +237,5 @@ extension HomeViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath)
         cell?.showUnHightLight()
-    }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     }
 }

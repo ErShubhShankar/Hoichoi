@@ -7,17 +7,6 @@
 
 import UIKit
 
-struct AccountData: CodeHashable {
-    var title: String
-    var subtitle: String?
-    var type: AccountType
-}
-enum AccountType: String, CodeHashable {
-    case plans
-    case language
-    case about
-    case faq
-}
 class AccountViewController: UIViewController {
     private typealias DataSource  = UICollectionViewDiffableDataSource<Int, AccountData>
     private typealias DataSourceSnapshot = NSDiffableDataSourceSnapshot<Int, AccountData>

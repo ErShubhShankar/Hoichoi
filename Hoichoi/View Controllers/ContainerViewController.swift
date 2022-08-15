@@ -10,13 +10,12 @@ import UIKit
 class ContainerViewController: UIViewController {
    
     @IBOutlet weak var viewContainer: UIView!
-    var bottomBar: BottomBar?
+    private var bottomBar: BottomBar?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadBottomBar()
     }
-    
     private func loadBottomBar() {
         let bar = BottomBar.add(on: self)
         bottomBar = bar

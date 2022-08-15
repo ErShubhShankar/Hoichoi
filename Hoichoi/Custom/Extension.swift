@@ -8,8 +8,7 @@
 import UIKit
 import Kingfisher
 
-
-
+public typealias CodeHashable = Codable & Hashable & Equatable
 extension UIApplication {
     var window: UIWindow? {
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
@@ -205,11 +204,5 @@ extension UIImageView {
                 }
             }
         })
-    }
-    func imageWithFade(image: UIImage, duration: TimeInterval = 0.0) {
-        UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: {
-            self.image = image
-            
-        }, completion: nil)
     }
 }

@@ -8,13 +8,9 @@
 import UIKit
 
 class AccountCell: UICollectionViewCell {
-
     @IBOutlet weak var labelSubtitle: UILabel!
     @IBOutlet weak var labelTitle: UILabel!
    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
     func updateUI(accountData: AccountData) {
         labelTitle.text = accountData.title
         if let subtitle = accountData.subtitle {

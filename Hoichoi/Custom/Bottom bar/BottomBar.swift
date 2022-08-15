@@ -7,57 +7,17 @@
 
 import UIKit
 
-enum AvailableBottomFeature: String {
-    case home = "HomeViewController"
-    case search = "SearchViewController"
-    case download = "DownloadViewController"
-    case upcoming = "UpcomingViewController"
-    case account = "AccountViewController"
-}
-
-struct TabItem {
-    var name: String
-    var imageName: String
-    var selectedImageName: String
-    var feature: AvailableBottomFeature
-
-    static func getDefaultTabItems() -> [TabItem] {
-
-        let homeTab = TabItem(name: "Home",
-                              imageName: "house",
-                              selectedImageName: "house.fill",
-                              feature: .home)
-        let searchTab = TabItem(name: "Discover",
-                                     imageName: "magnifyingglass.circle",
-                                     selectedImageName: "magnifyingglass.circle.fill",
-                                     feature: .search)
-        let downloadTab = TabItem(name: "Downloads",
-                              imageName: "arrow.down.circle",
-                              selectedImageName: "arrow.down.circle.fill",
-                              feature: .download)
-        let upcomingTab = TabItem(name: "Upcoming",
-                              imageName: "bell",
-                              selectedImageName: "bell.fill",
-                              feature: .upcoming)
-        let accountTab = TabItem(name: "Account",
-                                 imageName: "person.crop.circle",
-                                 selectedImageName: "person.crop.circle.fill",
-                                 feature: .account)
-        return [homeTab, searchTab, downloadTab, upcomingTab, accountTab]
-    }
-}
-
 class BottomBar: UIView {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var collectionTabItems: UICollectionView!
     private var tabViewController: UIViewController?
     private var arrayTabItems: [TabItem] = []
     var currentFeature: UIViewController?
+    
     // MARK: - Super Property
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
-
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
