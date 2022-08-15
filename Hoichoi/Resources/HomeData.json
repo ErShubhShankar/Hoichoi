@@ -1,0 +1,363 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "position": 0,
+      "type": "poster",
+      "items": [
+        {
+          "id": 100,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/25/1658743849110_rudrobinarabhisaappart21098x16261_3x4Images.jpg",
+          "position": 0,
+          "isFree": true,
+          "metaInfo": {
+            "title": "Rudrabinar Obhishaap",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 101,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/30/1659173508314_mm_1098x1626_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Mahabharat Murders",
+            "seasons": "1",
+            "episodes": "12",
+            "genre": "Crime Thriller"
+          }
+        },
+        {
+          "id": 102,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/02/19/1613716496706_bpg2_1098x1626_3x4Images.jpg",
+          "position": 2,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Bonyo Premer Golpo",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Psychological Thriller"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "position": 1,
+      "type": "continueWatching",
+      "items": [
+        {
+          "id": 200,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/4f/9f/852f98b548c881d35be62454fcb3/1549619742009_gangstarreportrait03_3x4Images.jpg",
+          "position": 0,
+          "isFree": false,
+          "completionPercentage": 20.0,
+          "metaInfo": {
+            "title": "Gangster",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 201,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/04/2/1617356429584_1098x1626_hoichoiunlimited_3x4Images.jpg",
+          "position": 1,
+          "completionPercentage": 80.0,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Hoichoi Unlimited",
+            "seasons": "1",
+            "episodes": "12",
+            "genre": "Crime Thriller"
+          }
+        },
+        {
+          "id": 202,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/02/22/1613989545309_yoddha_3x4Images.jpg",
+          "position": 2,
+          "isFree": false,
+          "completionPercentage": 90.0,
+          "metaInfo": {
+            "title": "Yoddha (2014)",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Psychological Thriller"
+          }
+        },
+        {
+          "id": 203,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/07/30/1596084746760_josh1098x1626_3x4Images.jpg",
+          "position": 2,
+          "completionPercentage": 66.0,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Josh",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Psychological Thriller"
+          }
+        },
+        {
+          "id": 204,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/33/66/dd0ec7cc470c9797209e15a8b9e1/1574930524554_bossjumboportrait_3x4Images.jpg",
+          "completionPercentage": 34.0,
+          "position": 2,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Boss",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Psychological Thriller"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "position": 2,
+      "type": "orignal",
+      "items": [
+        {
+          "id": 300,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/11/1660230372732_thumbnail_1098x1626_3x4Images.jpg",
+          "position": 0,
+          "isFree": true,
+          "metaInfo": {
+            "title": "Murder By The Sea",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 301,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/4/1659592459643_thumbnail_1098x1626_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Sumpurna",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 302,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/8/1657288859523_1098x1626_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Tushagni",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 303,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/08/9/1660040401186_xprem_1500x2000_3x4Images.jpg",
+          "position": 1,
+          "isFree": true,
+          "metaInfo": {
+            "title": "X=Prem",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 304,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/05/21/1653114178113_thumbnail_mon2_1098x1626_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Montu Pilot",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 305,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/8/1657259381608_nodorai1098x1626_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "No Dorai",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 306,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/06/14/1655199509783_dourportrait_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Dour",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "position": 3,
+      "type": "artist",
+      "items": [
+        {
+          "id": 400,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/05/14/1620986746948_1589185583208_shonkujumboportrait_3x4images_3x4Images.jpg",
+          "position": 0,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Ritvik Chakravarti",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        },
+        {
+          "id": 401,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/06/28/1656392566056_tasherghawr_1098x1626_3x4Images.jpg",
+          "position": 2,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Nusarat Jahan",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        },
+        {
+          "id": 402,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/04/22/1650649945181_1605524072975_cartoon_3x4images_3x4Images.jpg",
+          "position": 3,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Abir Chattarji",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        }
+      ]
+    },
+     {
+      "id": 6,
+      "position": 6,
+      "type": "channels",
+      "items": [
+        {
+          "id": 600,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/06/15/1592241669994_amisubhasbolchiportrait_3x4Images.jpg",
+          "position": 6,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Kolkatta TV",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        },
+        {
+          "id": 601,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/06/10/1623325503099_charachar_3x4Images.jpg",
+          "position": 5,
+          "isFree": false,
+          "metaInfo": {
+            "title": "DD Bangla",
+            "seasons": "1",
+            "episodes": "12",
+            "genre": "Crime Thriller"
+          }
+        },
+        {
+          "id": 602,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/02/14/1644818840063_nirbashito_1098x1626_3x4Images.jpg",
+          "position": 4,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Bangla Talkies",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        },
+        {
+          "id": 603,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/02/21/1645448554444_nirbaak_1098x1626_3x4Images.jpg",
+          "position": 3,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Sangeet Bangla",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        },
+        {
+          "id": 604,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2020/08/28/1598621834412_1098x1626_3x4Images.jpg",
+          "position": 2,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Channel 1",
+            "seasons": "",
+            "episodes": "",
+            "genre": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "position": 5,
+      "type": "trending",
+      "items": [
+        {
+          "id": 700,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/25/1658743849110_rudrobinarabhisaappart21098x16261_3x4Images.jpg",
+          "position": 0,
+          "isFree": true,
+          "metaInfo": {
+            "title": "Rudrabinar Obhishaap",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Musical Thriller"
+          }
+        },
+        {
+          "id": 701,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2022/07/30/1659173508314_mm_1098x1626_3x4Images.jpg",
+          "position": 1,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Mahabharat Murders",
+            "seasons": "1",
+            "episodes": "12",
+            "genre": "Crime Thriller"
+          }
+        },
+        {
+          "id": 702,
+          "image": "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2021/02/19/1613716496706_bpg2_1098x1626_3x4Images.jpg",
+          "position": 2,
+          "isFree": false,
+          "metaInfo": {
+            "title": "Bonyo Premer Golpo",
+            "seasons": "2",
+            "episodes": "17",
+            "genre": "Psychological Thriller"
+          }
+        }
+      ]
+    }
+  ]
+}
